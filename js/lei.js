@@ -128,7 +128,7 @@ function LEI() {
     }, this.addCss = function() {
       var t = document.createElement("link");
       t.rel = "stylesheet", t.href =
-        "../css/mystyles.css", document.getElementsByTagName(
+        "./css/mystyles.css", document.getElementsByTagName(
           "head")[0].appendChild(t);
       var e = document.createElement("script");
       e.src =
